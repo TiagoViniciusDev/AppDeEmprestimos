@@ -20,7 +20,7 @@ function Valor() {
     if(pegarValor < 50){
       alert("Empréstimo mínimo de R$50")
     } else{
-      navigate("/parcelas")
+      navigate("/Matheus-Emprestimos/parcelas")
       setValorEmprestimo(pegarValor)
       setNumeroDeParcelas(0)
     }

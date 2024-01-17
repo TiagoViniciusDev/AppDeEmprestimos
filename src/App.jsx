@@ -1,4 +1,5 @@
 import './App.css'
+import ErrorPage from './components/Pages/ErrorPage/ErrorPage'
 import Home from './components/Pages/Home/Home'
 import Parcelamento from './components/Pages/Parcelamento/Parcelamento'
 import Valor from './components/Pages/Valor/Valor'
@@ -13,8 +14,9 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<Home />}/>
-            <Route path='/valor-do-emprestimo' element={<Valor />}/>
-            <Route path='/parcelas' element={<Parcelamento />}/>
+            <Route path='/Matheus-Emprestimos/valor-do-emprestimo' element={<Valor />}/>
+            <Route path='/Matheus-Emprestimos/parcelas' element={<Parcelamento />}/>
+            <Route path='*' element={<ErrorPage />}/>
           </Routes>
         </BrowserRouter>
       </div>

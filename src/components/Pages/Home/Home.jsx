@@ -8,7 +8,7 @@ function Home() {
     <div className='Home'>
         <div className='main center pagesDesigner'>
             <Logo />
-            <Link to="/valor-do-emprestimo">Simular Empréstimo</Link>
+            <Link to="/Matheus-Emprestimos/valor-do-emprestimo">Simular Empréstimo</Link>
         </div>
     </div>
   )
