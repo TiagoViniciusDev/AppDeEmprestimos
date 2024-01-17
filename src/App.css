@@ -1,0 +1,7 @@
+.App > .banner{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../../../public/imgs/bannerPiggyBank.jpg);
+    background-size: cover;
+    background-position: left bottom;
+}

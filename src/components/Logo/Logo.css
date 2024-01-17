@@ -1,0 +1,22 @@
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo > h2{
+    white-space: nowrap;
+}
+
+.Logo .logoIcon{
+    background-color: var(--cor-principal);
+    padding: 0.15em 0.35em;
+    border-radius: 0.1em;
+}
+
+.Logo .logoIcon h2{
+    font-weight: 900;
+}
+
+.Logo img{
+    width: 2em;
+}

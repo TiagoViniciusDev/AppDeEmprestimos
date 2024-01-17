@@ -1,0 +1,74 @@
+.Parcelamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+.Parcelamento header{
+    width: 90%;
+    text-align: center;
+}
+
+.Parcelamento header > h2{
+    margin-bottom: 0.5em;
+}
+
+.Parcelamento span{
+    background-color: var(--cor-principal);
+    padding: 0.1em 0.2em;
+}
+
+.parcelasContainer{
+    max-height: 60vh;
+    overflow-y: auto;
+    margin-top: 1em;
+    padding-right: 0.5em;
+    width: 80%;
+}
+
+.Parcelamento .bottomContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 1em auto;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+.Parcelamento .bottomContainer a{
+    width: fit-content;
+}
+
+.Parcelamento .bottomContainer > p{
+    max-width: 40%;
+}
+
+.Parcelamento .bottomContainer .detalhes{
+    margin-right: 0.5em;
+}
+
+.Parcelamento .bottomContainer .detalhes p{
+    font-weight: 500;
+}
+
+.Parcelamento .bottomContainer .pedirEmprestimo{
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 400px){
+    .Parcelamento header{
+        width: 94%;
+    }
+
+    .parcelasContainer{
+        width: 94%;
+    }
+
+    .Parcelamento .bottomContainer{
+        width: 94%;
+    }
+}

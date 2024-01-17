@@ -1,0 +1,27 @@
+.Parcelas .parcela{
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+    cursor: pointer;
+}
+
+.Parcelas .parcela .iconParcela{
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-right: 1em;
+}
+
+.Parcelas .parcela .iconParcelaCirculo{
+    height: 0.5em;
+    width: 0.5em;
+    background-color: black;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.selecionada .iconParcelaCirculo{
+    background-color: var(--cor-principal) !important;
+}
