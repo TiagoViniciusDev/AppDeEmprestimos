@@ -15,7 +15,7 @@ function Parcelamento() {
 
   useEffect(() => {
     if(valorEmprestimo == 0){
-      navigate("/")
+      navigate("/Matheus-Emprestimos")
     } 
   },[])
 
